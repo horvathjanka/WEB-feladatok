@@ -1,0 +1,41 @@
+body{
+    background-color: #ffffff;
+}
+
+img{
+    border: 1px solid #000;
+}
+
+p{
+    font-size: 20px;
+}
+
+h1{
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+h2{
+    color: #ffffff;
+    position: relative;
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+table {
+    width: 640px;
+    margin: 0 auto; 
+    border-collapse: collapse; 
+    background-color: #2F4F4F;
+}
+
+td {
+    padding: 5px; /* Cellamargó beállítása */
+    margin: 10px; /* Opcionális: Cellatávolság beállítása */
+}
+
+#kep2{
+    float: left;
+}

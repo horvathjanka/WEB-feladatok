@@ -1,0 +1,36 @@
+body{
+    background-color: #2F4F4F;
+}
+
+img{
+    border: 1px solid #000;
+}
+
+p{
+    font-size: 20px;
+}
+
+h1{
+    color:white;
+    text-align: center;
+}
+
+a{
+    color: black;
+}
+
+table {
+    width: 640px;
+    margin: 0 auto; 
+    border-collapse: collapse; 
+    background-image: url('hatter.jpg');
+}
+
+td {
+    padding: 2px; /* Cellamargó beállítása */
+    margin: 5px; /* Opcionális: Cellatávolság beállítása */
+}
+
+#kep2{
+    float: right;
+}
