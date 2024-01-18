@@ -1,0 +1,63 @@
+﻿body {
+	font-size: 11pt;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color:#00008b;
+	background-image: url("bg.png");
+	margin: 0px;
+	padding: 0px;
+}
+
+p{
+	text-align: justify;
+	
+}
+
+p.bev{
+	font-size: small;
+	font-style: italic;
+}
+
+
+hr {
+	
+}
+
+h1, h2 {
+	color ; #dc143c;
+	padding: 5px;
+}
+
+h2 {
+	
+}
+
+#tartalom {
+	width: 930px;
+	margin: 0 auto;
+	text-align: left;
+	border: none;
+	background-color: #fde3ff(226, 229, 231, 0.801);
+}
+
+#oszlop1, #oszlop2, #oszlop3 {
+    float: left;
+    padding: 0px 05px;
+	width: 300px;
+   	
+}
+
+.kep {
+	width: 240 px;
+	border: none;
+	margin-left: 
+	
+}
+
+a:link {
+	color: #dc143c;
+}
+
+#lablec {
+    clear: both;
+    
+}
