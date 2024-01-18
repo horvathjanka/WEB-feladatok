@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="meghivo.css">
+    <title>Meghívó</title>
+</head>
+<body>
+    <div class="alap">
+        <fieldset>
+            <label>Név:</label>
+            <input type="text" onkeyup="NevValt(this)">
+            <br>
+            <label>Alkalom:</label>
+            <input type="radio" name="alkalmak" id="eljegyzes" onchange="AlkValt(this)"><label>eljegyzés</label>
+            <input type="radio" name="alkalmak" id="szulinap" onchange="AlkValt(this)"><label>szülinap</label>
+            <input type="radio" name="alkalmak" id="ballagas" onchange="AlkValt(this)"><label>ballagás</label>
+            <br>
+            <label>Dátum:</label>
+            <input type="date" onchange="DatValt(this)">
+            <br>
+            <label>Időpont:</label>
+            <input type="number" size="1" min="12" max="20" onchange="IdoValt(this)">
+            <label>:00 óra</label>
+            <br>
+            <label>Helyszín:</label>
+            <select onchange="HelyValt(this)">
+                <option value="hajo">Hajó étterem</option>
+                <option value="face">Face Room</option>
+                <option value="otthon">Háznál</option>
+            </select>
+            <br>
+            <label>Háttérszín:</label>
+            <input type="color" onchange="SzinValt(this)">
+            <br>
+        </fieldset>
+    </div>
+
+    <div id="meghivo">
+        <h1>Meghívó</h1>
+        <div class="kep">
+            <img src="ballagas.png" id="kep">
+        </div>
+        <div class="szoveg">
+            <h2>Kedves <span id="nev">Teszt Elek</span>!</h2>
+            <p>
+                Szeretettel meghívlak <span id="esemeny">a ballagásomra</span>!
+            </p>
+            <p>
+                Időpont: <span id="datum">2023-11-05</span> <span id="idopont">16</span>:00 óra
+            </p>
+            <p>
+                Helyszín: <span id="helyszin">Face Room</span>
+            </p>
+        </div>
+    </div>
+    <script src="meghivo.js"></script>
+</body>
+</html>
